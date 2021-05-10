@@ -6,6 +6,12 @@ import CrudService from '../apis/CrudService';
 import { v4 as uuidv4 } from "uuid";
 import ArticleCard from './common/ArticleCard';
 
+/* 
+Author: Juan Pablo Paredes
+Class: LocalPosts
+   This class was created to assemble all local posts in the page. This is using the same component to show Posts in the same format like external posts section.
+   Is important to note that the page allows to manage CRUD behavior. 
+*/
 class LocalPosts extends Component {
     constructor(props) {
         super(props);
@@ -37,6 +43,11 @@ class LocalPosts extends Component {
         toModify[e.target.name] = e.target.value;
         this.setState(toModify);
     }
+    /* 
+    Author: Juan Pablo Paredes
+    Method: savePost
+       This method is used to update or delete posts from localStorage. Everything is managed from the same point. 
+    */
     savePost = () => {
         let objToSave = {
             image: this.state.image,
@@ -75,6 +86,11 @@ class LocalPosts extends Component {
             this.setState({ showPosts: true, articles });
         });
     }
+    /* 
+    Author: Juan Pablo Paredes
+    Method: createPostBtn
+       Method used to open ModalDialog and manage articles addition.
+    */
     createPostBtn=()=>{
         this.setState({
             currentId:null,
