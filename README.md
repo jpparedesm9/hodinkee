@@ -39,4 +39,6 @@ src/
 
 If you want to explore a working example please go to the following Link: http://78.46.205.38/
 
+## How to install locally
 
+Please clone this repository and execute the following command <b>yarn install</b> By default the system is listening at port 3000.
