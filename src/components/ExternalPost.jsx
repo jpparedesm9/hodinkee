@@ -4,6 +4,11 @@ import ArticleCard from './common/ArticleCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Spinner from './common/Spinner';
 
+/* 
+Author: Juan Pablo Paredes
+Class: ExternalPost
+   Class used to manage logic to show posts from external source. This logic is reusing code from ArticleCard. 
+*/
 class ExternalPost extends Component {
     constructor(props) {
         super(props);
