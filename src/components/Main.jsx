@@ -4,8 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../common/css/style.css';
 import { Link } from 'react-router-dom';
 
-
-
+/* 
+Author: Juan Pablo Paredes
+Class: Main
+   This is the start point for the application. The main goal of the same is to provide a common interface to manage the whole application. 
+   This class is referenced from Router.jsx. 
+*/
 class Main extends Component {
   constructor(props) {
     super(props);
