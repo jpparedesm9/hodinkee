@@ -22,7 +22,7 @@ src/
 ├── Router.jsx            --> File to manage all possible routes in the applications. This allow to have a routing system with scalable projection.
 ├── components/
 │   ├── Main.jsx          --> This allow us to manage a common template to navigate throught the site, connecting different components in a unique place.
-│   ├── ExternalPosts.jsx --> Page to manage and extract posts from external websites in this case all requests come from gnews.com
+│   ├── ExternalPosts.jsx --> Page to manage and extract posts from external websites in this case all requests come from gnews.io
 │   ├── LocalPosts.jsx    --> Similar to External Posts however this includes CRUD operations saving posts in local variables (localStorage).
 │   ├──common/            --> This file contents all code used for other components. For example for Local and External Posts all components related to visualization are shared.
 │       ├──ArticleCard.jsx --> Component created to show an article. This is shared for the other components.
