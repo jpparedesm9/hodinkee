@@ -1,0 +1,35 @@
+.sticky-nav {
+    position: sticky;
+    top: 0;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#222;
+   color: #999;
+   font-family: Brown,sans-serif;
+   text-align: center;
+    vertical-align: middle;
+   height:30px; 
+}
+.articlesMargin{
+    margin: 20px;
+ }
+.postLinks{
+color: #000000;
+padding:10px;
+}
+.postLinks:hover{
+    color: #000000;
+}
+.postLinks:active{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: .2em;
+}
+.loader{
+    text-align: center;
+    vertical-align: middle;
+}
